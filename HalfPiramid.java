@@ -9,4 +9,3 @@ public class HalfPiramid {
         }
     }
 }
-//thus is
