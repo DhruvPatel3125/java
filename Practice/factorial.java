@@ -8,7 +8,7 @@ public class factorial {
         return f;
     }
 
-    public static int binomial(int n,int r){
+    public static int binomial(int n,int r){r
         int fact_n = fact(n);
         int fact_r = fact(r);
         int fact_nmr= fact(n-r);
