@@ -11,7 +11,7 @@ class SinglyLinkedList {
             this.next = null;
         }
     }
-
+//check all code 
     private Node head = null;
 
     // Method to create a linked list
