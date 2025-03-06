@@ -20,7 +20,7 @@ class SinglyLinkedList {
         System.out.println("Linked list created with the first node having value: " + data);
     }
 
-    // Method to insert a node at the end of the linked list
+    // Method to insert a node at the end of the linked list add
     public void insert(int data) {
         Node newNode = new Node(data);
         if (head == null) {
