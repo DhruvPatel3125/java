@@ -32,7 +32,7 @@ public static void main(String[] args){
     // System.out.println("Number of vowels in the string are: "+count);
 
 
-    // print only unique vovels in string
+    //print only unique vovels in string
 
     // System.out.print("Enter the string: ");
     // String str = sc.nextLine();
@@ -44,7 +44,7 @@ public static void main(String[] args){
     //     if(ch == 'a'|| ch == 'e'||ch=='i'||ch=='o'||
     //     ch=='u'){
     //         System.out.print(ch+" ");
-    //         str = str.replace(ch, ' ');
+    //         str = str.replace(ch,' ');
     //     }
     //     }
     //     System.out.println("");
@@ -82,12 +82,28 @@ public static void main(String[] args){
     // }
 
     // replace vovels with * in string
-    System.out.print("Enter the string: ");
-    String str = sc.nextLine();
-    sc.close();
-    String newStr = str.replaceAll("[aeiouAEIOU]", "*");
-    System.out.println("String after replacing vowels with *: "+newStr);
-    }
-    }
+    // System.out.print("Enter the string: ");
+    // String str = sc.nextLine();
+    // sc.close();
+    // String newStr = str.replaceAll("[aeiouAEIOU]", "*");
+    // System.out.println("String after replacing vowels with *: "+newStr);
+    // }
+    // }
     
 
+
+    System.out.print("Enter the string: ")
+    String str = sc.nextLine();
+    sc.close();
+
+    System.out.print("Unique vowelas ade im asrkng are;");
+    for (int i = 0;i<str.length();i++){
+        char ch = str.charAt(i);
+        if(ch =='a'||ch=='e'||ch == 'i'||ch=='o'||ch=='u'){
+            System.out.println(ch+" ");
+            str = str.replace(ch,' ');
+        }
+    }
+    System.out.println("");
+}
+}
