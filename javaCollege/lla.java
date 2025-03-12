@@ -9,7 +9,7 @@ class Node{
         this.next = null;
     }
 }
-
+// singly linked list
 class SinglyLinkedList{
     node head;
     public void insert(int data){
