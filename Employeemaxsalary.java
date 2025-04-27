@@ -1,3 +1,6 @@
+// **Question:**Create a class`EMPLOYEE`in Java with`id`,`name`,and`salary`as data members.Create 5 different employee objects by taking input from the
+//  user.Display all the information of the employee having the maximum salary.
+
 import java.util.Scanner;
 
 class Employee {
@@ -31,7 +34,7 @@ public class Employeemaxsalary {
             System.out.println("Enter the details for Employee " + (i + 1) + ":");
             System.out.println("Enter the id:");
             int id = sc.nextInt();
-            sc.nextLine();  // Consume newline
+            sc.nextLine(); // Consume newline
             System.out.println("Enter the name:");
             String name = sc.nextLine();
             System.out.println("Enter the salary:");
